@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom AAI-510 Project Ignores
+# Ignore datasets
+*.csv
+*.tsv
+data/
+
+# Ignore large video presentations
+*.mp4
+*.mov
