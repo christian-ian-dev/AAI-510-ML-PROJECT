@@ -1,6 +1,5 @@
 # AAI-510-ML-PROJECT
 # Machine Learning Solutions for Predicting UFC Fight Finish Probability
-**AAI-510 Final Project**
 
 ## Project Overview
 UFC fans, sports media companies, fantasy platforms, and fight analysts all want better ways to preview fights. Instead of only predicting who will win, this project predicts whether a fight is likely to end in a finish or go to a decision.
