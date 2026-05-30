@@ -12,7 +12,6 @@ Content creation: help media teams build data-backed fight previews
 ## Team Members
 * Ramon Diehl Verdugo
 * Christian Lopez
-* Faisal Jaffer
 
 ## Deliverables
 * **Jupyter Notebook**
