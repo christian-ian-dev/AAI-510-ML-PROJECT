@@ -1,46 +1,39 @@
-# AAI-510-ML-PROJECT
-# Machine Learning Solutions for Predicting UFC Fight Finish Probability
+# Predicting UFC Fight Finishes using Machine Learning
+**AAI-510 Final Project**
 
 ## Project Overview
-UFC fans, sports media companies, fantasy platforms, and fight analysts all want better ways to preview fights. Instead of only predicting who will win, this project predicts whether a fight is likely to end in a finish or go to a decision.
-Fan engagement: create more interesting pre-fight content and discussion.
-Fight card promotion: identify matchups with a higher chance of dramatic finishes.
-Broadcast planning: support storylines, previews, and analyst talking points.
-Content creation: help media teams build data-backed fight previews
-
+This project aims to predict whether a UFC fight will end in a finish (KO/TKO/Submission) or go to a decision using machine learning. By forecasting fight outcomes, this solution provides valuable insights for sports betting markets, fan engagement platforms, and targeted advertising. This project is presented to an executive decision-making body to demonstrate the business viability of deploying this ML solution into production.
 
 ## Team Members
+* Christian Ian Lopez
 * Ramon Diehl Verdugo
-* Christian Lopez
 
 ## Deliverables
-* **Jupyter Notebook**
-* **Business Presentation**
-* **Video Presentation**
+* **Jupyter Notebook**: Located in `notebooks/`. Contains the technical methodology, EDA, modeling, evaluation, and an LLM concept for fight-preview summaries.
+* **Business Presentation**: Located in `presentations/`. Targeted to the non-technical executive committee.
+* **Video Presentation**: [Link to be added upon completion]
 
 ## Methodology (CRISP-DM)
 
 ### 1. Business Understanding
-* **Objective**: 
+* **Objective**: Predict UFC fight outcomes (Finish vs. Decision) using pre-fight statistics.
+* **Impact**: Enhances predictive modeling for sports analytics, driving engagement and optimizing odds-making.
 
-* **Impact**: 
-
-### 2. Data Understanding (EDA)
-* **Dataset**: 
-* **Key Insights**: 
+### 2. Data Understanding
+* **Dataset**: Kaggle UFC Dataset.
+* **Key Steps**: Created the target variable (Finish vs. Decision) and removed data leakage columns (e.g., post-fight statistics that models wouldn't know before a fight).
 
 ### 3. Data Preparation & Feature Engineering
-* **Cleaning**: 
-* **Feature Selection**: 
+* Handled missing values, outliers, and engineered features for the modeling pipelines.
+* *Note: Two separate data cleaning and modeling pipelines are being developed and compared by the engineering team to ensure the highest accuracy.*
 
 ### 4. Modeling
-We tested and compared the following machine learning models:
-
+* **Models Tested**: Testing various algorithms (including ensemble methods) to compare performance.
+* **Advanced Features**: Includes feature importance analysis and an LLM concept for generating dynamic fight-preview summaries.
 
 ### 5. Evaluation
-* **Metrics**: 
-* **Conclusions**: 
+* Models are evaluated against business objectives. The final model will be selected based on its ability to minimize false predictions while maximizing actionable insights.
 
 ### 6. Deployment Strategy
-* **Architecture**:
-* **Considerations**: 
+* **Architecture**: [To be updated: Batch vs. Real-time inference]
+* **Considerations**: Evaluating latency, cost, and hosting requirements for a production rollout.
