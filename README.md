@@ -11,7 +11,9 @@ This project aims to predict whether a UFC fight will end in a finish (KO/TKO/Su
 ## Deliverables
 * **Jupyter Notebook**: Located in `notebooks/`. Contains the technical methodology, EDA, modeling, evaluation, and an LLM concept for fight-preview summaries.
 * **Business Presentation**: Located in `presentations/`. Targeted to the non-technical executive committee.
-* **Video Presentation**: https://drive.google.com/file/d/14CzEvb0YFl5kueAL9KZciAkMup48NSYj/view?usp=share_link
+* **Video Presentation**:
+
+ https://drive.google.com/file/d/14CzEvb0YFl5kueAL9KZciAkMup48NSYj/view?usp=share_link
 
 ## Methodology (CRISP-DM)
 
