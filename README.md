@@ -11,7 +11,7 @@ This project aims to predict whether a UFC fight will end in a finish (KO/TKO/Su
 ## Deliverables
 * **Jupyter Notebook**: Located in `notebooks/`. Contains the technical methodology, EDA, modeling, evaluation, and an LLM concept for fight-preview summaries.
 * **Business Presentation**: Located in `presentations/`. Targeted to the non-technical executive committee.
-* **Video Presentation**: [Link to be added upon completion]
+* **Video Presentation**: https://drive.google.com/file/d/14CzEvb0YFl5kueAL9KZciAkMup48NSYj/view?usp=share_link
 
 ## Methodology (CRISP-DM)
 
@@ -35,5 +35,5 @@ This project aims to predict whether a UFC fight will end in a finish (KO/TKO/Su
 * Models are evaluated against business objectives. The final model will be selected based on its ability to minimize false predictions while maximizing actionable insights.
 
 ### 6. Deployment Strategy
-* **Architecture**: [To be updated: Batch vs. Real-time inference]
+* **Architecture**: Batch vs. Real-time inference
 * **Considerations**: Evaluating latency, cost, and hosting requirements for a production rollout.
